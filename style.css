@@ -1,0 +1,448 @@
+
+body {
+   background-color: #1C2128;
+   margin: 0px;
+   height: 100vh;
+
+}
+
+.hero {
+    position: relative;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #C9AA8B;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        height: 400px;
+    }
+}
+
+h1 {
+    color: #79C4CD;
+    font-size: 36px;
+    font-family: satisfy;
+    text-decoration: none;
+    margin: 0px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-weight: 200;
+    background-color: #1C2128;
+   
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+.navigation {
+    justify-content: flex-end;
+    padding-left: 1050px;
+    background-color: #1C2128;
+    height: 50px;
+    padding-top: 0px;
+    
+}
+
+@media screen and (max-width:600px) {
+    .navigation {
+        justify-content: center;
+        padding-left: 170px;
+        height: 30px;
+        
+    }
+}  
+    
+
+
+nav a {
+    color: #C9AA8B;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-family: oswald;
+  
+}
+
+nav a:hover {
+    color: #DC4625;
+}
+
+    
+@media screen and (max-width:600px) {
+    nav a {
+        font-size: 14px;
+       
+        
+    }
+}  
+    
+    
+    
+
+
+ .hello p {
+     color: black;
+     font-family: caveat;
+     font-size: 36px;
+     margin: 15px;
+     display: flex;
+     justify-content:flex-end;
+     padding-right: 770px;
+     padding-bottom: 5px;
+     padding-top: 150px;
+     
+     
+ }
+
+ @media screen and (max-width:600px) {
+
+    .hello p {
+        font-size: 18px;
+        padding-right: 190px;
+        padding-top: 100px;
+        line-height: 1;
+    }
+ }
+
+
+     
+
+
+
+ .firstline p {
+     color: black;
+     font-size: 36px;
+     margin: 5px;
+     font-family: caveat;
+     justify-content: flex-end;
+     line-height: 1;
+     padding-left: 100px;
+     
+     
+       
+ }
+
+ @media screen and (max-width:600px) {
+
+    .firstline p {
+        font-size: 16px;
+        padding-left: 0px;
+        margin: 40px;
+        line-height: 0;
+    }
+ }
+
+
+
+ .secondline p {
+    color: black;
+    font-size: 36px;
+    margin: 5px;
+    font-family: caveat;
+    justify-content: flex-end;
+    line-height: 1;
+    padding-left: 100px;
+
+ }
+
+ @media screen and (max-width:600px) {
+
+    .secondline p {
+        font-size: 16px;
+        padding-left: 0px;
+        margin: 40px;
+        line-height: 0;
+        
+        
+    }
+ }
+
+
+
+ 
+.me img {
+    width: 400px;
+    clip-path: circle();
+    float: right;
+    margin-right: 50px;
+    margin-top: 80px;
+    
+    
+
+}
+
+@media screen and (max-width:600px) {
+    .me img {
+        width:150px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+}
+
+.aboutme p {
+    color: #C9AA8B;
+    font-family: oswald;
+    font-size: 24px;
+    text-align: center;
+    margin: 200px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:600px) {
+    .aboutme p{
+        font-size: 18px;
+        margin: 50px;
+
+
+    }
+}
+.title p{
+    color: #C9AA8B;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-family: oswald;
+   
+}
+
+@media screen and (max-width: 600px) {
+    .title p{
+        padding-top: 50px;
+    }
+}
+.flexbox-container {
+    height: 625px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    flex-direction: row;
+
+
+}
+
+@media screen and (max-width:600px) {
+
+    .flexbox-container {
+        flex-direction: column;
+        margin-top: 800px;
+        margin-left: 40px;
+      
+        
+    }
+}
+
+    
+.flexbox-item {
+    width: 350px;
+    margin: 100px 20px;
+    background-color: #C9AA8B;
+    border-radius: 10px;
+    
+    
+}    
+
+.flexbox-item-1 {
+    min-height: 500px;
+    color: #2D333F;
+    line-height: 1.5;
+  
+
+
+      
+
+}
+
+h3,a {
+    font-family: oswald;
+    font-size: 36px;
+    line-height: 1;
+    font-size: 24px;
+    text-align: center;
+    color: #2D333F;
+    text-decoration:none;
+    font-weight: bold;
+    
+    
+    
+}
+
+h3,a:hover {
+    color: #DC4625;
+}
+
+h4 {
+    text-align: center;
+    font-size: 18px;
+    font-family: oswald;
+    line-height: 1;
+    font-weight: 200;
+    
+   
+    
+}
+
+h5 {
+    text-align: center;
+    font-size: 18px; 
+    font-family: oswald;
+    line-height: 1;
+    font-weight: 200;
+    
+}
+
+.frogs {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+    
+
+
+}
+.flexbox-item-2 {
+    min-height: 500px;
+    color: #2D333F;
+    line-height: 1.5;
+}
+
+.click {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+
+.flexbox-item-3 {
+    min-height: 500px;
+    color: #2D333F;
+    line-height: 1.5;
+}
+
+.education {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+
+    
+
+.footer {
+    font-size: 18px;
+    font-family: oswald;
+    margin: 20px;
+    margin-top: 200px;
+    
+    
+
+}
+
+@media screen and (max-width:600px) {
+    .footer {
+        margin-top: 900px;
+        
+    }
+}
+
+.email {
+    height: 60px;
+    width: 45px;
+    margin: 5px;
+    position: relative;
+    bottom: 107px;
+    float: left;
+    margin-left: 650px;
+}
+
+@media screen and (max-width:600px) {
+    .email{
+      margin-left: 150px;
+        
+    }
+}
+
+.facebook {
+    height: 45px;
+    margin: 5px;
+    position: relative;
+    bottom: 100px;
+    float: left;
+    
+}
+
+@media screen and (max-width:600px) {
+    .facebook{
+     
+        
+    }
+}
+
+.linkedin {
+    height: 45px;
+    margin: 5px;
+    position: relative;
+    bottom: 100px;
+    float: left;
+}
+
+@media screen and (max-width:600px) {
+    .linkedin {
+        
+
+    }
+}
+
+.copyright {
+    height: 35px;
+    margin-top: 55px;
+    padding-left: 425px;
+    
+}
+
+@media screen and (max-width:600px) {
+    .copyright {
+        height: 30px;
+        padding-left: 250px;
+        margin-top: 3px;
+        
+        
+
+    }
+}
+
+
+
+h6 {
+    font-family: oswald;
+    font-size: 24px;
+    float: right;
+    margin-right: 20px;
+    font-weight: 100;
+    color: #C9AA8B; 
+
+}
+
+@media screen and (max-width:600px) {
+    h6 {
+        font-size: 18px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
