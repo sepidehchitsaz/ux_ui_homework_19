@@ -3,7 +3,7 @@ body {
    background-color: #1C2128;
    margin: 0px;
    height: 100vh;
-
+   
 }
 
 .hero {
@@ -24,7 +24,7 @@ body {
     }
 }
 
-h1 {
+/* h1 {
     color: #79C4CD;
     font-size: 36px;
     font-family: satisfy;
@@ -44,11 +44,53 @@ h1 {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+} */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+
+}
+
+nav {
+    background-color:  #1C2128;
+    height: 100px;
+    width: 100%;
+}
+
+lable.logo {
+    color: #79C4CD;
+    font-size: 36px;
+    font-family: satisfy;
+    line-height: 100px;
+    padding:0 50px;
+    font-weight: 200;
+}
+
+nav ul {
+    float:right;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+
+}
+
+nav ul li a {
+    color: #C9AA8B;
+
 }
 
 
-
-.navigation {
+/* ul {
     justify-content: flex-end;
     padding-left: 1050px;
     background-color: #1C2128;
@@ -58,7 +100,7 @@ h1 {
 }
 
 @media screen and (max-width:600px) {
-    .navigation {
+    ul {
         justify-content: center;
         padding-left: 170px;
         height: 30px;
@@ -68,7 +110,7 @@ h1 {
     
 
 
-nav a {
+ul li a {
     color: #C9AA8B;
     text-decoration: none;
     margin: 0 10px;
@@ -78,19 +120,49 @@ nav a {
   
 }
 
-nav a:hover {
+ul :hover {
     color: #DC4625;
 }
 
     
 @media screen and (max-width:600px) {
-    nav a {
+    ul {
         font-size: 14px;
        
         
     }
 }  
+     */
+/* ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
     
+    
+    
+
+}
+
+ul li {
+    background-color: #1C2128;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+ul li a {
+    font-size: 18px;
+    display: block;
+    
+}
+
+.navigation ul li {
+    display: none;
+}
+ nav a:hover ul li {
+     display: block;
+ } */
+
     
     
 
@@ -262,16 +334,14 @@ nav a:hover {
     color: #2D333F;
     line-height: 1.5;
   
-
-
-      
-
 }
+
+
 
 h3,a {
     font-family: oswald;
     font-size: 36px;
-    line-height: 1;
+    line-height: 2;
     font-size: 24px;
     text-align: center;
     color: #2D333F;
@@ -290,7 +360,7 @@ h4 {
     text-align: center;
     font-size: 18px;
     font-family: oswald;
-    line-height: 1;
+    line-height: 2;
     font-weight: 200;
     
    
@@ -301,7 +371,7 @@ h5 {
     text-align: center;
     font-size: 18px; 
     font-family: oswald;
-    line-height: 1;
+    line-height: 2;
     font-weight: 200;
     
 }
@@ -311,9 +381,9 @@ h5 {
     height: 300px;
     border-radius: 10px 10px 0px 0px;
     
-
-
 }
+
+
 .flexbox-item-2 {
     min-height: 500px;
     color: #2D333F;
@@ -410,7 +480,7 @@ h5 {
 
 .copyright {
     height: 35px;
-    margin-top: 55px;
+    margin-top: 35px;
     padding-left: 425px;
     
 }
@@ -435,6 +505,8 @@ h6 {
     margin-right: 20px;
     font-weight: 100;
     color: #C9AA8B; 
+    line-height: 4;
+    
 
 }
 
@@ -443,6 +515,7 @@ h6 {
         font-size: 18px;
         margin-top: 0px;
         padding-top: 0px;
+    
     }
 }
 
