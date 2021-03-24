@@ -69,7 +69,7 @@ lable.logo {
     font-family: satisfy;
     line-height: 100px;
     padding:0 50px;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 nav ul {
@@ -86,6 +86,7 @@ nav ul li {
 
 nav ul li a {
     color: #C9AA8B;
+    font-weight: 200;
 
 }
 
@@ -380,9 +381,12 @@ h5 {
     width: 350px;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
+    transition: transform .2s;
     
 }
-
+ .frogs:hover {
+     transform: scale(1.5);
+ }
 
 .flexbox-item-2 {
     min-height: 500px;
@@ -394,7 +398,12 @@ h5 {
     width: 350px;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
+    transition: transform .2s;
    
+}
+
+.click:hover {
+    transform: scale(1.5);
 }
 
 .flexbox-item-3 {
@@ -407,9 +416,13 @@ h5 {
     width: 350px;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
+    transition: transform .2s;
     
 }
 
+.education:hover {
+    transform: scale(1.5);
+}
 
     
 
