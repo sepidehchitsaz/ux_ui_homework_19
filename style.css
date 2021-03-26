@@ -381,12 +381,12 @@ h5 {
     width: 350px;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
-    transition: transform .2s;
+    /* transition: transform .2s; */
     
 }
- .frogs:hover {
+ /* .frogs:hover {
      transform: scale(1.5);
- }
+ } */
 
 .flexbox-item-2 {
     min-height: 500px;
@@ -398,13 +398,13 @@ h5 {
     width: 350px;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
-    transition: transform .2s;
+    /* transition: transform .2s; */
    
 }
 
-.click:hover {
+/* .click:hover {
     transform: scale(1.5);
-}
+} */
 
 .flexbox-item-3 {
     min-height: 500px;
@@ -416,13 +416,13 @@ h5 {
     width: 350px;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
-    transition: transform .2s;
+    /* transition: transform .2s; */
     
 }
 
-.education:hover {
+/* .education:hover {
     transform: scale(1.5);
-}
+} */
 
     
 
